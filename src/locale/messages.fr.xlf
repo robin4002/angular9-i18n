@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5a6ab44e3ee979848f74feb6b0a17ab5c6ca84e6" datatype="html">
+        <source>Hello in english</source>
+        <target>Bonjour en français</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f560b59f068345fe00e08ef5727b302a72221606" datatype="html">
+        <source>The content here is in english, en-US (the default language)</source>
+        <target>Ici le contenu est en français, fr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Display the current lang</note>
+        <note priority="1" from="meaning">main page</note>
+      </trans-unit>
+      <trans-unit id="86f4473a19af7049a6171f577a74bd742e778e5a" datatype="html">
+        <source>We are the <x id="INTERPOLATION" equiv-text="{{ currentDate | date }}"/></source>
+        <target>Nous somme le <x id="INTERPOLATION" equiv-text="{{ currentDate | date }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="620ba8f74432771cec99850c63742aa11e19be33" datatype="html">
+        <source>Enter your name</source>
+        <target>Entrez votre nom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="btnIncrease" datatype="html">
+        <source>Increase</source>
+        <target>Augmenter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Button to increase click counter</note>
+        <note priority="1" from="meaning">main page</note>
+      </trans-unit>
+      <trans-unit id="2e2822946530aa3a71950aa1ea34e2d042e460f3" datatype="html">
+        <source>Counter value: <x id="ICU" equiv-text="{clickCount, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <target>Valeur du compteur: <x id="ICU" equiv-text="{clickCount, plural, =0 {...} =1 {...} other {...}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="79d6153d936c35a1f293a367e2c56074343055da" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {no click} =1 {1 click} other {<x id="INTERPOLATION" equiv-text="{{ clickCount }}"/> clicks} }</source>
+        <target>{VAR_PLURAL, plural, =0 {aucun clic} =1 {1 clic} other {<x id="INTERPOLATION" equiv-text="{{ clickCount }}"/> clics} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="765296891797858248">
+        <source>Hi!</source>
+        <target>Bonjour!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

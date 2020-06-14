@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular9-i18n": {
@@ -13,6 +13,12 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "fr": "src/locale/messages.fr.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -60,6 +66,9 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "fr": {
+              "localize": ["fr"]
             }
           }
         },
@@ -71,6 +80,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular9-i18n:build:production"
+            },
+            "fr": {
+              "browserTarget": "angular9-i18n:build:fr"
             }
           }
         },
@@ -123,6 +135,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular9-i18n"
+    }
+  },
+  "defaultProject": "angular9-i18n",
+  "cli": {
+    "analytics": "707d9fe0-acde-4265-8f49-f6fc408bf287"
+  }
 }

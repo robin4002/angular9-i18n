@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular9-i18n';
+  clickCount = 0;
+  textInTsFile = $localize`Hi!`;
+  currentDate = new Date();
+
+  increase() {
+    this.clickCount ++;
+  }
 }
